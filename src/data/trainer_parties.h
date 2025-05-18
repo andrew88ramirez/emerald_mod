@@ -3463,7 +3463,7 @@ static const struct TrainerMonItemCustomMoves sParty_Flannery1[] = {
     .lvl = 27,
     .species = SPECIES_NINETALES,
     .heldItem = ITEM_LEFTOVERS,
-    .moves = {MOVE_WILL_O_WISP, MOVE_FLAM\, MOVE_CONFUSE_RAY, MOVE_SAFEGUARD}
+    .moves = {MOVE_WILL_O_WISP, MOVE_FLAMETHROWER, MOVE_CONFUSE_RAY, MOVE_SAFEGUARD}
     },
     {
     .iv = 250,
