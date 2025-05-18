@@ -1210,7 +1210,7 @@ PetalburgCity_Gym_Text_WallyThankYouBye:
 	.string "my POKéMON.\p"
 	.string "I promise I'll take really good\n"
 	.string "care of it.\p"
-	.string "Oh! My mom's waiting for me,\n"
+	.string "Oh! My Mom's waiting for me,\n"
 	.string "so I have to go!\p"
 	.string "Bye, {PLAYER}!$"
 

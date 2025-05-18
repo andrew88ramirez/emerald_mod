@@ -38,9 +38,9 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_BULBASAUR] =
     {
-        .baseHP        = 45,
+        .baseHP        = 50,
         .baseAttack    = 49,
-        .baseDefense   = 49,
+        .baseDefense   = 69,
         .baseSpeed     = 45,
         .baseSpAttack  = 65,
         .baseSpDefense = 65,
@@ -70,10 +70,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
     {
         .baseHP        = 60,
         .baseAttack    = 62,
-        .baseDefense   = 63,
+        .baseDefense   = 75,
         .baseSpeed     = 60,
         .baseSpAttack  = 80,
-        .baseSpDefense = 80,
+        .baseSpDefense = 85,
         .types = { TYPE_GRASS, TYPE_POISON },
         .catchRate = 45,
         .expYield = 141,
@@ -4658,12 +4658,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_CYNDAQUIL] =
     {
-        .baseHP        = 39,
-        .baseAttack    = 52,
-        .baseDefense   = 43,
-        .baseSpeed     = 65,
-        .baseSpAttack  = 60,
-        .baseSpDefense = 50,
+        .baseHP        = 45,
+        .baseAttack    = 65,
+        .baseDefense   = 45,
+        .baseSpeed     = 75,
+        .baseSpAttack  = 70,
+        .baseSpDefense = 60,
         .types = { TYPE_FIRE, TYPE_FIRE },
         .catchRate = 45,
         .expYield = 65,
@@ -4688,12 +4688,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_QUILAVA] =
     {
-        .baseHP        = 58,
-        .baseAttack    = 64,
-        .baseDefense   = 58,
-        .baseSpeed     = 80,
-        .baseSpAttack  = 80,
-        .baseSpDefense = 65,
+        .baseHP        = 68,
+        .baseAttack    = 74,
+        .baseDefense   = 68,
+        .baseSpeed     = 90,
+        .baseSpAttack  = 90,
+        .baseSpDefense = 85,
         .types = { TYPE_FIRE, TYPE_FIRE },
         .catchRate = 45,
         .expYield = 142,
@@ -4718,12 +4718,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_TYPHLOSION] =
     {
-        .baseHP        = 78,
-        .baseAttack    = 84,
-        .baseDefense   = 78,
-        .baseSpeed     = 100,
-        .baseSpAttack  = 109,
-        .baseSpDefense = 85,
+        .baseHP        = 98,
+        .baseAttack    = 94,
+        .baseDefense   = 88,
+        .baseSpeed     = 110,
+        .baseSpAttack  = 119,
+        .baseSpDefense = 95,
         .types = { TYPE_FIRE, TYPE_FIRE },
         .catchRate = 45,
         .expYield = 209,
@@ -7798,12 +7798,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_MUDKIP] =
     {
-        .baseHP        = 50,
-        .baseAttack    = 70,
-        .baseDefense   = 50,
-        .baseSpeed     = 40,
-        .baseSpAttack  = 50,
-        .baseSpDefense = 50,
+        .baseHP        = 70,
+        .baseAttack    = 80,
+        .baseDefense   = 60,
+        .baseSpeed     = 50,
+        .baseSpAttack  = 60,
+        .baseSpDefense = 60,
         .types = { TYPE_WATER, TYPE_WATER },
         .catchRate = 45,
         .expYield = 65,
@@ -7828,12 +7828,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_MARSHTOMP] =
     {
-        .baseHP        = 70,
-        .baseAttack    = 85,
-        .baseDefense   = 70,
-        .baseSpeed     = 50,
-        .baseSpAttack  = 60,
-        .baseSpDefense = 70,
+        .baseHP        = 80,
+        .baseAttack    = 95,
+        .baseDefense   = 80,
+        .baseSpeed     = 60,
+        .baseSpAttack  = 80,
+        .baseSpDefense = 80,
         .types = { TYPE_WATER, TYPE_GROUND },
         .catchRate = 45,
         .expYield = 143,
@@ -7858,12 +7858,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_SWAMPERT] =
     {
-        .baseHP        = 100,
-        .baseAttack    = 110,
-        .baseDefense   = 90,
-        .baseSpeed     = 60,
-        .baseSpAttack  = 85,
-        .baseSpDefense = 90,
+        .baseHP        = 150,
+        .baseAttack    = 140,
+        .baseDefense   = 100,
+        .baseSpeed     = 90,
+        .baseSpAttack  = 105,
+        .baseSpDefense = 95,
         .types = { TYPE_WATER, TYPE_GROUND },
         .catchRate = 45,
         .expYield = 210,

@@ -3,6 +3,7 @@
 static const u16 sBulbasaurLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
     LEVEL_UP_MOVE( 4, MOVE_GROWL),
+    LEVEL_UP_MOVE( 5, MOVE_ABSORB),
     LEVEL_UP_MOVE( 7, MOVE_LEECH_SEED),
     LEVEL_UP_MOVE(10, MOVE_VINE_WHIP),
     LEVEL_UP_MOVE(15, MOVE_POISON_POWDER),
@@ -2151,8 +2152,9 @@ static const u16 sMeganiumLevelUpLearnset[] = {
 static const u16 sCyndaquilLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
     LEVEL_UP_MOVE( 1, MOVE_LEER),
+    LEVEL_UP_MOVE( 1, MOVE_EMBER),
     LEVEL_UP_MOVE( 6, MOVE_SMOKESCREEN),
-    LEVEL_UP_MOVE(12, MOVE_EMBER),
+    LEVEL_UP_MOVE(12, MOVE_SLASH),
     LEVEL_UP_MOVE(19, MOVE_QUICK_ATTACK),
     LEVEL_UP_MOVE(27, MOVE_FLAME_WHEEL),
     LEVEL_UP_MOVE(36, MOVE_SWIFT),
@@ -3676,6 +3678,7 @@ static const u16 sBlazikenLevelUpLearnset[] = {
 static const u16 sMudkipLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
     LEVEL_UP_MOVE( 1, MOVE_GROWL),
+    LEVEL_UP_MOVE( 4, MOVE_BUBBLE),
     LEVEL_UP_MOVE( 6, MOVE_MUD_SLAP),
     LEVEL_UP_MOVE(10, MOVE_WATER_GUN),
     LEVEL_UP_MOVE(15, MOVE_BIDE),
