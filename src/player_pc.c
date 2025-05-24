@@ -224,10 +224,11 @@ static const struct MenuAction sItemStorage_MenuActions[] =
 
 static const u16 sNewGamePCItems[][2] =
 {
-    { ITEM_POTION, 1 },
+    { ITEM_POTION, 3 },
+    { ITEM_SUPER_POTION, 5 },
     { ITEM_MASTER_BALL, 1 },
-    { ITEM_RARE_CANDY, 10 },
-    { ITEM_NUGGET, 10 },
+    { ITEM_RARE_CANDY, 30 },
+    { ITEM_NUGGET, 20 },
     { ITEM_NONE, 0 }
 };
 
@@ -362,7 +363,8 @@ void NewGameInitPCItems(void)
 {
     u8 i = 0;
     ClearItemSlots(gSaveBlock1Ptr->pcItems, PC_ITEMS_COUNT);
-
+    AddBagItem(ITEM_NUGGET, 5);
+    AddBagItem(ITEM_RARE_CANDY, 20);
     while (TRUE)
     {
         if (sNewGamePCItems[i][0] == ITEM_NONE || sNewGamePCItems[i][1] == 0)

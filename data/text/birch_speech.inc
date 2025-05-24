@@ -1,9 +1,9 @@
 gText_Birch_Welcome::
 	.string "Hi! Sorry to keep you waiting!\p"
 	.string "Welcome to the world of POKéMON!\p"
-	.string "My name is BIRCH.\p"
+	.string "My name is Birch.\p"
 	.string "But everyone calls me the POKéMON\n"
-	.string "PROFESSOR.\p"
+	.string "Professor.\p"
 	.string "$"
 
 gText_Birch_Pokemon::
@@ -33,7 +33,8 @@ gText_Birch_AndYouAre::
 
 gText_Birch_BoyOrGirl::
 	.string "Are you a boy?\n"
-	.string "Or are you a girl?$"
+	.string "Or are you a girl?\l" 
+	.string "Trump made it only 2 genders.$"
 
 gText_Birch_WhatsYourName::
 	.string "All right.\n"
@@ -56,6 +57,8 @@ gText_Birch_AreYouReady::
 	.string "Take courage, and leap into the\n"
 	.string "world of POKéMON where dreams,\l"
 	.string "adventure, and friendships await!\p"
+	.string "This journey will be tougher because\l"
+	.string "Andrew switched it up a bit.\p"
 	.string "Well, I'll be expecting you later.\n"
-	.string "Come see me in my POKéMON LAB.\p"
+	.string "Come see me in my POKéMON Lab or be square.\p"
 	.string "$"

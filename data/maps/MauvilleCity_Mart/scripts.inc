@@ -25,6 +25,13 @@ MauvilleCity_Mart_Pokemart:
 	.2byte ITEM_GUARD_SPEC
 	.2byte ITEM_DIRE_HIT
 	.2byte ITEM_X_ACCURACY
+	.2byte ITEM_RARE_CANDY
+	.2byte ITEM_HP_UP
+	.2byte ITEM_IRON
+	.2byte ITEM_PROTEIN
+	.2byte ITEM_CALCIUM
+	.2byte ITEM_CARBOS
+	.2byte ITEM_ZINC
 	pokemartlistend
 
 MauvilleCity_Mart_EventScript_ExpertM::

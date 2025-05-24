@@ -22,6 +22,13 @@ MossdeepCity_Mart_Pokemart:
 	.2byte ITEM_MAX_REPEL
 	.2byte ITEM_X_ATTACK
 	.2byte ITEM_X_DEFEND
+	.2byte ITEM_RARE_CANDY
+	.2byte ITEM_HP_UP
+	.2byte ITEM_IRON
+	.2byte ITEM_PROTEIN
+	.2byte ITEM_CALCIUM
+	.2byte ITEM_CARBOS
+	.2byte ITEM_ZINC
 	pokemartlistend
 
 MossdeepCity_Mart_EventScript_Woman::
