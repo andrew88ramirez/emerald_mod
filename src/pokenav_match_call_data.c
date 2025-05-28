@@ -247,7 +247,7 @@ static const match_call_text_data_t sStevenTextScripts[] = {
 
 static const struct MatchCallStructNPC sStevenMatchCallHeader =
 {
-    .type = MC_TYPE_NPC,
+.type = MC_TYPE_NPC,
     .mapSec = MAPSEC_NONE,
     .flag = FLAG_REGISTERED_STEVEN_POKENAV,
     .desc = gText_StevenMatchCallDesc,
@@ -338,6 +338,7 @@ static const struct MatchCallWally sWallyMatchCallHeader =
     .flag = FLAG_ENABLE_WALLY_MATCH_CALL,
     .rematchTableIdx = REMATCH_WALLY_VR,
     .desc = gText_WallyMatchCallDesc,
+    .name = "Wally",
     .textData = sWallyTextScripts,
     .locationData = sWallyLocationData
 };
