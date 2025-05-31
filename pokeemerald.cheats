@@ -7,3 +7,9 @@
 !disabled
 # Warp to Mauville
 820322E4 0200
+!disabled
+# Warp to Petalburg
+820322E4 0000
+!disabled
+# Warp to Victory Road B2F?
+820322E4 2D18

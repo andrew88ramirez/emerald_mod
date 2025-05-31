@@ -338,7 +338,6 @@ static const struct MatchCallWally sWallyMatchCallHeader =
     .flag = FLAG_ENABLE_WALLY_MATCH_CALL,
     .rematchTableIdx = REMATCH_WALLY_VR,
     .desc = gText_WallyMatchCallDesc,
-    .name = "Wally",
     .textData = sWallyTextScripts,
     .locationData = sWallyLocationData
 };

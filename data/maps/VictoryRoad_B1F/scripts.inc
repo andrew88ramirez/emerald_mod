@@ -89,3 +89,31 @@ VictoryRoad_B1F_Text_HallePostBattle:
 	.string "Try to enjoy things the rest of\n"
 	.string "the way!$"
 
+
+VictoryRoad_B1F_EventScript_Mewtwo::
+    lockall
+    waitse
+    playmoncry SPECIES_MEWTWO, CRY_MODE_ENCOUNTER
+    delay 40
+    waitmoncry
+    setwildbattle SPECIES_MEWTWO, 60
+    setflag FLAG_SYS_CTRL_OBJ_DELETE
+    special BattleSetup_StartLegendaryBattle
+    waitstate
+    clearflag FLAG_SYS_CTRL_OBJ_DELETE
+    specialvar VAR_RESULT, GetBattleOutcome
+    goto_if_eq VAR_RESULT, B_OUTCOME_WON, VictoryRoad_B1F_EventScript_DefeatedMewtwo
+    goto_if_eq VAR_RESULT, B_OUTCOME_RAN, VictoryRoad_B1F_EventScript_RanFromMewtwo
+    goto_if_eq VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED, VictoryRoad_B1F_EventScript_RanFromMewtwo
+    setflag FLAG_DEFEATED_MEWTWO
+    releaseall
+    end
+
+VictoryRoad_B1F_EventScript_DefeatedMewtwo:
+    setflag FLAG_DEFEATED_MEWTWO
+    releaseall
+    end
+
+VictoryRoad_B1F_EventScript_RanFromMewtwo:
+    releaseall
+    end

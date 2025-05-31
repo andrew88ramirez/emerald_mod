@@ -1773,6 +1773,18 @@ static const struct SpriteFrameImage sPicTable_Regi[] = {
     obj_frame_tiles(gObjectEventPic_Regi),
 };
 
+static const struct SpriteFrameImage sPicTable_Mewtwo[] = {
+    obj_frame_tiles(gObjectEventPic_MewtwoStill),
+    obj_frame_tiles(gObjectEventPic_MewtwoStill),
+    obj_frame_tiles(gObjectEventPic_MewtwoStill),
+    obj_frame_tiles(gObjectEventPic_MewtwoStill),
+    obj_frame_tiles(gObjectEventPic_MewtwoStill),
+    obj_frame_tiles(gObjectEventPic_MewtwoStill),
+    obj_frame_tiles(gObjectEventPic_MewtwoStill),
+    obj_frame_tiles(gObjectEventPic_MewtwoStill),
+    obj_frame_tiles(gObjectEventPic_MewtwoStill),
+};
+
 static const struct SpriteFrameImage sPicTable_Skitty[] = {
     overworld_frame(gObjectEventPic_Skitty, 2, 2, 0),
     overworld_frame(gObjectEventPic_Skitty, 2, 2, 1),
